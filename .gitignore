@@ -5,9 +5,12 @@ S_source.hh
 S_sie.resource
 S_override.mk
 
-#trick python cache
+# trick python cache
 .trick/
 
 # compiled objects
 *.o
 *.d
+
+# vs code stuff
+.vscode/
