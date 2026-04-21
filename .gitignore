@@ -1,0 +1,13 @@
+# trick build artifacts
+build/
+S_main*.exe
+S_source.hh
+S_sie.resource
+S_override.mk
+
+#trick python cache
+.trick/
+
+# compiled objects
+*.o
+*.d
