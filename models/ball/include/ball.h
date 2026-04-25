@@ -1,5 +1,17 @@
+
 #ifndef BALL_H
 #define BALL_H
+
+/*
+PURPOSE: (Bouncing ball model)
+LIBRARY_DEPENDENCY:
+    (
+        (../src/ball_init.c)
+        (../src/ball_force.c)
+        (../src/ball_integrate.c)
+        (../src/ball_impact.c)
+    )
+*/
 
 #include "trick/regula_falsi.h"
 
@@ -16,19 +28,14 @@ typedef struct _ayBall
 
 } ayBall;
 
-void ay_bounce_init(ayBall* tBall);
-void ay_force      (ayBall* tBall);
-void ay_integrate  (ayBall* tBall);
-void ay_impact     (ayBall* tBall);
-
 #ifdef __cplusplus
 extern "C" {
-    #endif
-        void ay_bounce_init(ayBall* tBall);
-        void ay_force      (ayBall* tBall);
-        void ay_integrate  (ayBall* tBall);
-        void ay_impact     (ayBall* tBall);
-    #ifdef __cplusplus
+#endif
+    void   ay_bounce_init(ayBall*);
+    void   ay_force      (ayBall*);
+    int    ay_integrate  (ayBall*);
+    double ay_impact     (ayBall*);
+#ifdef __cplusplus
 }
 #endif
 

@@ -1,0 +1,4 @@
+log_ball is in ASCII
+log_ball	double	     s	sys.exec.out.time
+log_ball	double	     m	ball_sim.ball.dPosition
+log_ball	double	   m/s	ball_sim.ball.dVelocity
