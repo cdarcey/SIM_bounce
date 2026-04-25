@@ -1,0 +1,20 @@
+
+#include "sim_objects/default_trick_sys.sm"
+
+##include "models/ball/include/ball.h"
+
+/* define sim object */
+class BallSimObject : public Trick::SimObject {
+	public:
+		ayBall ball;
+		BallSimObject() {
+		
+			("initialization", 0.0, &ball, ay_bounce_init);
+			("derivative", 0.01, &ball, ay_force);
+			("integration", 0.01, &ball, ay_integrate);
+			("dynamic_event", 0.01, &ball, ay_impact);
+		}
+
+};
+
+BallSimObject ball_sim;
