@@ -1,3 +1,3 @@
 
 
-TRICK_CFLAGS += -I$(HOME)/trick_projects/SIM_bounce
+TRICK_CFLAGS += -I$(CURDIR)
