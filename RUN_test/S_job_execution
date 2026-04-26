@@ -7,8 +7,8 @@ Trick::Threads (Child_0)
     trigger type = mutex
     number of scheduled jobs = 7
     from Trick::ThreadBase
-    pthread_id = 132780489608064
-    process_id = 23180
+    pthread_id = 138423061662592
+    process_id = 4184
     rt_priority = 0
     cpus = none assigned
 
@@ -31,6 +31,7 @@ Initialization:
       1 |   0 |default_data             | 60000 |          |          |          | 10.00 | trick_em.create_thread_process_event
       1 |   0 |default_data             | 60000 |          |          |          | 11.00 | trick_vs.vs.default_data
       1 |   0 |default_data             | 60000 |          |          |          | 14.02 | trick_frame_log.frame_log.default_data
+      1 |   0 |default_data             | 60000 |          |          |          | 21.00 | ball_sim.ay_ball_default_data
       1 |   0 |default_data             | 65534 |          |          |          | 22.00 | ball_integloop.integ_sched.rebuild_jobs
       1 |   0 |default_data             | 65535 |          |          |          | 20.00 | trick_udunits.udunits.read_default_xml
       1 |   0 |initialization           | 0     |          |          |          | 15.00 | trick_master_slave.master.process_sim_args
@@ -49,7 +50,7 @@ Initialization:
       1 |   0 |initialization           | 2     |          |          |          | 11.01 | trick_vs.vs.init
       1 |   0 |initialization           | 60000 |          |          |          | 14.03 | trick_frame_log.frame_log.create_DP_files
       1 |   0 |initialization           | 60000 |          |          |          | 18.00 | trick_zero_conf.zc.init
-      1 |   0 |initialization           | 60000 |          |          |          | 21.00 | ball_sim.ay_bounce_init
+      1 |   0 |initialization           | 60000 |          |          |          | 21.01 | ball_sim.ay_bounce_init
       1 |   0 |initialization           | 65534 |          |          |          |  1.01 | trick_sys.exec_collect_init
       1 |   0 |initialization           | 65534 |          |          |          |  1.02 | trick_sys.sched.write_s_run_summary
       1 |   0 |initialization           | 65534 |          |          |          | 12.01 | trick_data_record.drd.init
@@ -176,8 +177,8 @@ CheckPointRestart :
 ===================================================================================================
 Integration Loop:
 
-      1 |   0 |derivative               | 60000 | 0.000000 |        1 |    1e+37 | 21.01 | ball_sim.ay_force
-      1 |   0 |integration              | 60000 | 0.000000 |        1 |    1e+37 | 21.02 | ball_sim.ay_integrate
-      1 |   0 |dynamic_event            | 60000 | 0.000000 |        1 |    1e+37 | 21.03 | ball_sim.ay_impact
+      1 |   0 |derivative               | 60000 | 0.000000 |        1 |    1e+37 | 21.02 | ball_sim.ay_force
+      1 |   0 |integration              | 60000 | 0.000000 |        1 |    1e+37 | 21.03 | ball_sim.ay_integrate
+      1 |   0 |dynamic_event            | 60000 | 0.000000 |        1 |    1e+37 | 21.04 | ball_sim.ay_impact
 
 ===================================================================================================

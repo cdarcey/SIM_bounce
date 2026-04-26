@@ -10,6 +10,7 @@ LIBRARY_DEPENDENCY:
         (../src/ball_force.c)
         (../src/ball_integrate.c)
         (../src/ball_impact.c)
+        (../src/ball_default_data.c)
     )
 */
 
@@ -31,10 +32,11 @@ typedef struct _ayBall
 #ifdef __cplusplus
 extern "C" {
 #endif
-    void   ay_bounce_init(ayBall*);
-    void   ay_force      (ayBall*);
-    int    ay_integrate  (ayBall*);
-    double ay_impact     (ayBall*);
+    void   ay_ball_default_data(ayBall*);
+   	void   ay_bounce_init      (ayBall*);
+   	void   ay_force            (ayBall*);
+	int    ay_integrate        (ayBall*);
+	double ay_impact           (ayBall*);
 #ifdef __cplusplus
 }
 #endif

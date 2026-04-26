@@ -12,13 +12,6 @@ ay_bounce_init(ayBall* tBall)
 		return;
 	}
 
-	tBall->dPosition     = 5.0;
-	tBall->dVelocity     = 0.0;
-	tBall->dAcceleration = 0.0;
-	tBall->dGravity      = 9.81;
-	tBall->dBounce       = 0.5;
-	tBall->iHit          = 0;
-
 	reset_regula_falsi(0.0, &tBall->rf);
 
 }

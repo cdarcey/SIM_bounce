@@ -1,8 +1,8 @@
-|L   0|2026/04/25,10:54:27.734122|Careys-Laptop| |T 0|10.000000| 
+|L   0|2026/04/26,09:28:34.818685|Careys-Laptop| |T 0|10.000000| 
      REALTIME SHUTDOWN STATS:
-            ACTUAL INIT TIME:        0.423
-         ACTUAL ELAPSED TIME:        0.447
-|L   0|2026/04/25,10:54:29.713597|Careys-Laptop| |T 0|10.000000| 
+            ACTUAL INIT TIME:        0.440
+         ACTUAL ELAPSED TIME:        0.456
+|L   0|2026/04/26,09:28:36.803577|Careys-Laptop| |T 0|10.000000| 
 SIMULATION TERMINATED IN
   PROCESS: 0
   ROUTINE: Executive_loop_single_thread.cpp:98
@@ -11,15 +11,15 @@ SIMULATION TERMINATED IN
               SIMULATION START TIME:        0.000
                SIMULATION STOP TIME:       10.000
             SIMULATION ELAPSED TIME:       10.000
-                 USER CPU TIME USED:        0.349
-               SYSTEM CPU TIME USED:        0.052
-              SIMULATION / CPU TIME:       24.932
-       INITIALIZATION USER CPU TIME:        0.330
-     INITIALIZATION SYSTEM CPU TIME:        0.048
-               SIMULATION RAM USAGE:       57.129MB
+                 USER CPU TIME USED:        0.337
+               SYSTEM CPU TIME USED:        0.072
+              SIMULATION / CPU TIME:       24.408
+       INITIALIZATION USER CPU TIME:        0.321
+     INITIALIZATION SYSTEM CPU TIME:        0.072
+               SIMULATION RAM USAGE:       57.262MB
       (External program RAM usage not included!)
-  VOLUNTARY CONTEXT SWITCHES (INIT):           47
-INVOLUNTARY CONTEXT SWITCHES (INIT):            2
+  VOLUNTARY CONTEXT SWITCHES (INIT):           49
+INVOLUNTARY CONTEXT SWITCHES (INIT):            1
    VOLUNTARY CONTEXT SWITCHES (RUN):           13
  INVOLUNTARY CONTEXT SWITCHES (RUN):            0
 

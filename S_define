@@ -8,10 +8,11 @@ class BallSimObject : public Trick::SimObject {
     public:
         ayBall ball;
         BallSimObject() {
-            ("initialization") ay_bounce_init( &ball );
-            ("derivative")     ay_force( &ball );
-            ("integration")    trick_ret = ay_integrate( &ball );
-            ("dynamic_event")  ay_impact( &ball );
+		("default_data")   ay_ball_default_data( &ball );
+        	("initialization") ay_bounce_init( &ball );
+        	("derivative")     ay_force( &ball );
+        	("integration")    trick_ret = ay_integrate( &ball );
+        	("dynamic_event")  ay_impact( &ball );
         }
 };
 

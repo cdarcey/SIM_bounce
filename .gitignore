@@ -13,4 +13,4 @@ S_override.mk
 *.d
 
 # vs code stuff
-.vscode/
+.vscode/S_main_*.exe
