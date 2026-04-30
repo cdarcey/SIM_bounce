@@ -1,4 +1,4 @@
-# CP found at /home/carey/trick/bin
+# CP found at /home/carey/dev/trick/bin
 
 # Disable built-in implicit rules to increase build speed.
 
@@ -7,7 +7,7 @@
 .PHONY: all
 
 ifndef TRICK_HOME
-    export TRICK_HOME := /home/carey/trick
+    export TRICK_HOME := /home/carey/dev/trick
 endif
 
 -include S_pre.mk
