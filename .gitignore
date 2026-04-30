@@ -4,6 +4,7 @@ S_main*.exe
 S_source.hh
 S_sie.resource
 S_override.mk
+makefile
 
 # trick python cache
 .trick/
